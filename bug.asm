@@ -1,0 +1,1 @@
+mov eax, [ebx + 4*ecx] ; potential error: ecx value may be too large, causing out-of-bounds memory access
